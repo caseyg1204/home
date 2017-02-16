@@ -68,6 +68,7 @@ const HomePage = () => {
 
       <div className="panel panel-default col-xs-8 col-xs-offset-2 text-center" style={styles.cta}>
         <p style={styles.home}>Schedule a free 15 minute consultation to see if I'm the right fit to help your business. </p>
+        <p style={styles.home}>Too shy for a call? Shoot me an email casey@parsed.io </p>
         <Button bsSize="large" bsStyle="primary" href="https://calendly.com/caseygarland/intro/">Schedule Free Consultation</Button>
       </div>
     </div>

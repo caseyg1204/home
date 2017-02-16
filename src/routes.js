@@ -8,13 +8,13 @@ import HomePage from './components/HomePage';
 // import AboutPage from './components/AboutPage';
 // import NotFoundPage from './components/NotFoundPage';
 
-const goToBlog = () => {
-    window.location = 'http://blog.parsed.io';
+const goToBlog = (event) => {
+    window.location = `http://blog.parsed.io${event.location.pathname}`;
 };
 
 export default (
   <Route path="/" component={App}>
     <IndexRoute component={HomePage}/>
-      <Route path="blog" onEnter={goToBlog}/>
+      <Route path="/setup-a-mac-slave-for-jenkins/" onEnter={goToBlog}/>
   </Route>
 );
