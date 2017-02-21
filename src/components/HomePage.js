@@ -65,6 +65,9 @@ const HomePage = () => {
     productDescription: {
       marginBottom: '20px'
     },
+    blockquote: {
+      minHeight: '120px'
+    }
   };
   return (
     <div className="col-xs-12" style={styles.home}>
