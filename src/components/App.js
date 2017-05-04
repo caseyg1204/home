@@ -1,7 +1,6 @@
 import React, { PropTypes } from 'react';
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
-import { Link } from 'react-router';
-import { LinkContainer } from 'react-router-bootstrap';
+// import { Navbar, Nav, NavItem } from 'react-bootstrap';
+// import { Link } from 'react-router';
 // This is a class-based component because the current
 // version of hot reloading won't hot reload a stateless
 // component at the top-level.
@@ -14,7 +13,7 @@ class App extends React.Component {
   render(){
     return (
       <div className="container" style={styles}>
-        <Navbar fixedTop>
+        {/* <Navbar fixedTop>
           <Navbar.Header>
             <Navbar.Brand>
               <Link to="/">Parsed</Link>
@@ -25,13 +24,8 @@ class App extends React.Component {
             <Nav>
               <NavItem href="http://blog.parsed.io">Blog</NavItem>
             </Nav>
-            <Nav pullRight>
-              <LinkContainer to="/front-end-roadmap">
-                <NavItem>Roadmap</NavItem>
-              </LinkContainer>
-            </Nav>
           </Navbar.Collapse>
-        </Navbar>
+        </Navbar> */}
         <span style={{paddingTop: '40px'}}>
           {this.props.children}
         </span>

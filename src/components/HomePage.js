@@ -73,55 +73,31 @@ const HomePage = () => {
     <div className="col-xs-12" style={styles.home}>
       <div className="col-xs-12 col-md-8 col-md-offset-2">
         <div className="text-center">
-          <h1 style={styles.h1}>Hi, I'm Casey</h1>
+          <h1 style={styles.h1}>Parsed</h1>
           <hr style={styles.hr}/>
-          <h2>I build front-end apps.</h2>
-          <h3>React, Angular and React Native.</h3>
+          <h2>A boutique mobile development agency.</h2>
+          <h3>We build native mobile apps with React Native.</h3>
         </div>
         <br/>
-        <p>Building maintainable, quality front-end applications is hard. Finding a senior front-end developer or architect can be harder.
-          Let me take away that complexity while you focus on your business. I only build React, Angular and React Native applications.</p>
-          <p>All work is fixed price. You will make a business decision knowing exactly what you will pay.</p>
-        <h3>Brands I've worked with</h3>
+        <p>Building a good mobile app is hard. Building good mobile apps for iOS and Android is harder.
+          Let us make it easy while you focus on your business.</p>
+        <h3>Brands we've worked with</h3>
         <div style={styles.brands}>
           <Image src={djc} style={styles.image}/>
           <Image src={vba} style={styles.image}/>
           <Image src={bbt} style={styles.image}/>
         </div>
         <div className="panel panel-default text-center" style={styles.cta}>
-          <p style={styles.home}>Schedule a free 15 minute consultation to see if I'm the right fit to help your business. </p>
-          <p style={styles.home}>Too shy for a call? Shoot me an email casey@parsed.io </p>
+          <p style={styles.home}>Schedule a free 15 minute consultation to see if we're the right fit to help your business. </p>
+          <p style={styles.home}>Too shy for a call? Shoot Casey an email casey@parsed.io </p>
           <Button block bsStyle="primary" style={styles.ctaButton} href="https://calendly.com/caseygarland/intro/">Schedule Free Chat</Button>
         </div>
         <div className="row">
           <div className="col-xs-12">
             <h3>I want to partner with you.</h3>
             <Image src={profile} style={styles.profile}/>
-            <p>My name is Casey Garland, and I'm a front-end engineer.
-              When we work together I will focus on delivering the value your business needs, not the latest in vogue framework. </p>
-          </div>
-        </div>
-        <div className="panel panel-default" style={styles.cta}>
-          <h3>How can I help you?</h3>
-          <div className="row" style={styles.products}>
-            <div className="col-xs-12 col-md-4">
-              <h4>Consultation</h4>
-              <p style={styles.productDescription}>A free 30 minute chat to uncover a few things that will improve your product's front-end development.</p>
-              <Button block bsStyle="primary" style={{...styles.ctaButton, ...styles.productButton}} href="https://calendly.com/caseygarland/intro/">Schedule Free Chat</Button>
-              <br/>
-            </div>
-            <div className="col-xs-12 col-md-4" style={styles.product}>
-              <h4>Front-end Roadmap</h4>
-              <p style={styles.productDescription}>Get a custom plan for your front-end develoment.</p>
-              <Button block bsStyle="primary" style={{...styles.ctaButton, ...styles.productButton}}>Learn More</Button>
-              <br/>
-            </div>
-            <div className="col-xs-12 col-md-4" style={styles.product}>
-              <h4>Build</h4>
-              <p style={styles.productDescription}>I will build your front-end client for you, for a fixed price.</p>
-              <Button block bsStyle="primary" style={{...styles.ctaButton, ...styles.productButton}} href="https://calendly.com/caseygarland/intro/">Let's Talk</Button>
-              <br/>
-            </div>
+            <p>My name is Casey Garland, and I love building things.
+              When we work together I will focus on delivering the value your business needs. </p>
           </div>
         </div>
         <div className="row col-xs-12">
@@ -129,7 +105,7 @@ const HomePage = () => {
           <blockquote style={styles.blockquote}>
             <Image src={kevin} style={styles.quoteProfilePhoto}/>
             <div>
-              <p>"Casey is a solid engineer and leader. He truly gets web and mobile."</p>
+              <p>"Casey is a solid engineer and leader. He truly gets mobile."</p>
               <footer>Kevin <cite title="Source Title">Distinguished Technologist</cite></footer>
             </div>
           </blockquote>
