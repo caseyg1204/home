@@ -69,13 +69,14 @@ const HomePage = () => {
       minHeight: '120px'
     }
   };
+  const isPittsburgh = window.location.href.toLowerCase().includes('pittsburgh');
   return (
     <div className="col-xs-12" style={styles.home}>
       <div className="col-xs-12 col-md-8 col-md-offset-2">
         <div className="text-center">
           <h1 style={styles.h1}>Parsed</h1>
           <hr style={styles.hr}/>
-          <h2>A boutique mobile development agency.</h2>
+          <h2>A boutique mobile development agency{isPittsburgh && ' in Pittsburgh'}.</h2>
           <h3>We build native mobile apps with React Native.</h3>
         </div>
         <br/>
