@@ -110,7 +110,7 @@ class HomePage extends React.Component {
                 </div>
               </div>
             </div>
-            <div style={{marginTop: '30%', fontSize: '40px', color: 'white', padding: '20px', alignSelf: 'flex-end', ...styles.lightFont}}>
+            <div style={{marginTop: '30%', fontSize: '40px', color: 'white', padding: small && '20px', alignSelf: 'flex-end', ...styles.lightFont}}>
               A boutique mobile development agency.
             </div>
           </div>
@@ -287,7 +287,7 @@ class HomePage extends React.Component {
               We want to partner with you.
             </div>
             <div style={{fontSize: '20px', color: '#CCE8FF', lineHeight: '26px', textAlign: 'center', marginTop: '20px', ...styles.lightFont}}>
-              Schedule a free 30 minute consultation to see if we're the right fit. <br />
+              <a style={{color: '#CCE8FF'}} href="https://calendly.com/caseygarland">Schedule</a> a free 30 minute consultation to see if we're the right fit. <br />
               Not ready for a call? Shoot us an email <a style={{textDecoration: 'none', color: '#CCE8FF'}} href="mailTo:hi@parsed.ioq">hi@parsed.io</a>.
             </div>
           </div>
