@@ -1,8 +1,10 @@
 const express = require('express');
+const sslRedirect = require('heroku-ssl-redirect');
 const path = require('path');
 const port = process.env.PORT || 8080;
 const compression = require('compression');
 const app = express();
+app.use(sslRedirect());
 app.use(compression());
 
 // serve static assets normally
