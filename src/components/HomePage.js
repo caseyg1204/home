@@ -9,6 +9,7 @@ import parsedFooter from '../images/logo_footer.png';
 import iconArchitect from '../images/icon_architect.png';
 import iconChat from '../images/icon_chat.png';
 import iconMobile from '../images/icon_mobile.png';
+import iconWatch from '../images/icon_watch.png';
 import slantGreenTop from '../images/slant_green_top.png';
 import slantGreenBottom from '../images/slant_green_white_bottom.png';
 import slantLightBlueBottom from '../images/slant_lightblue_bottom.png';
@@ -146,6 +147,14 @@ class HomePage extends React.Component {
                 <div style={styles.serviceDescription}>
                   Rewrite exiting app in React Native.
                   We fix existing bugs along the way and produce iOS and Androids apps.
+                </div>
+              </div>
+              <div style={styles.serviceContainer}>
+                <img src={iconWatch} />
+                <div style={styles.serviceLabel}>Office Hours</div>
+                <div style={styles.serviceDescription}>
+                  We host weekly, FREE, video calls anyone can join to get advice or help on anything
+                  related to React Native. Click <a href="https://www.getdrip.com/forms/34560859/submissions/new">here</a> to get link emailed to you each week.
                 </div>
               </div>
             </div>
