@@ -297,7 +297,7 @@ class HomePage extends React.Component {
             </div>
             <div style={{fontSize: '20px', color: '#CCE8FF', lineHeight: '26px', textAlign: 'center', marginTop: '20px', ...styles.lightFont}}>
               <a style={{color: '#CCE8FF'}} href="https://calendly.com/caseygarland">Schedule</a> a free 30 minute consultation to see if we're the right fit. <br />
-              Not ready for a call? Shoot us an email <a style={{textDecoration: 'none', color: '#CCE8FF'}} href="mailTo:hi@parsed.ioq">hi@parsed.io</a>.
+              Not ready for a call? Shoot us an email <a style={{textDecoration: 'none', color: '#CCE8FF'}} href="mailTo:hi@parsed.io">hi@parsed.io</a>.
             </div>
           </div>
           <div style={{flexDirection: 'column', justifyContent: 'center', display: 'flex', marginTop: '40px', paddingBottom: '30px', fontSize: '16px', ...styles.lightFont, color: '#CCE8FF'}}>
