@@ -3050,6 +3050,10 @@ he@1.1.x:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/he/-/he-1.1.1.tgz#93410fd21b009735151f8868c2f271f3427e23fd"
 
+heroku-ssl-redirect@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/heroku-ssl-redirect/-/heroku-ssl-redirect-0.0.4.tgz#21ba0707aa503b50a412a0946abfaa88ef7d082c"
+
 history@^3.0.0:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/history/-/history-3.2.1.tgz#71c7497f4e6090363d19a6713bb52a1bfcdd99aa"
@@ -5345,6 +5349,10 @@ react-redux@5.0.1:
     lodash "^4.2.0"
     lodash-es "^4.2.0"
     loose-envify "^1.1.0"
+
+react-router-bootstrap@0.23.1:
+  version "0.23.1"
+  resolved "https://registry.yarnpkg.com/react-router-bootstrap/-/react-router-bootstrap-0.23.1.tgz#a1e0b82f49d25a6083c72202ad16aaa64bba0e0c"
 
 react-router-redux@4.0.7:
   version "4.0.7"
