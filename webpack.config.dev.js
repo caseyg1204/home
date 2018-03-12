@@ -46,7 +46,7 @@ export default {
         context: '/',
         postcss: () => [autoprefixer],
       }
-    }) 
+    })
   ],
   module: {
     rules: [
