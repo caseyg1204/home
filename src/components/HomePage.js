@@ -210,7 +210,7 @@ class HomePage extends React.Component {
               }}
             >
               Building a good mobile app is hard. Building good mobile apps for
-              iOS and Anroid is harder. <br />
+              iOS and Android is harder. <br />
               Let us make it easy while you focus on your business.
             </div>
             <div
@@ -241,7 +241,7 @@ class HomePage extends React.Component {
                 <img src={iconChat} />
                 <div style={styles.serviceLabel}>App Rewrite</div>
                 <div style={styles.serviceDescription}>
-                  Rewrite exiting app in React Native. We fix existing bugs
+                  Rewrite existing app in React Native. We fix existing bugs
                   along the way and produce iOS and Androids apps.
                 </div>
               </div>
@@ -254,7 +254,7 @@ class HomePage extends React.Component {
                   <a href="https://www.getdrip.com/forms/34560859/submissions/new">
                     here
                   </a>{" "}
-                  to get link emailed to you each week.
+                  to get have a link emailed to you each week.
                 </div>
               </div>
             </div>
